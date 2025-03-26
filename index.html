@@ -3,71 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Site</title>
+    <title>Wanderer's Vice</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
+            font-family: 'Garamond', 'Georgia', serif;
+            line-height: 1.8;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f9f5e9;
+            color: #2b2b2b;
         }
         header {
             text-align: center;
-            margin-bottom: 3rem;
+            border-bottom: 2px double #2b2b2b;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
         }
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #2c3e50;
+            font-family: 'Garamond', 'Times New Roman', serif;
+            font-size: 2.5em;
+            font-weight: normal;
+            color: #2b2b2b;
+            margin: 0.5em 0;
+            letter-spacing: 1px;
         }
-        .content {
-            background: #fff;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        .subtitle {
+            font-style: italic;
+            color: #555;
+            font-size: 1.1em;
         }
-        p {
-            margin-bottom: 1rem;
-        }
-        .social-links {
-            margin-top: 2rem;
+        .navigation {
             text-align: center;
+            margin: 30px 0;
+            font-family: 'Garamond', 'Georgia', serif;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
         }
-        .social-links a {
-            color: #2c3e50;
+        .navigation a {
+            margin: 0 15px;
+            color: #444;
             text-decoration: none;
-            margin: 0 10px;
-            transition: color 0.3s ease;
+            border-bottom: 1px dotted #666;
         }
-        .social-links a:hover {
-            color: #3498db;
+        .navigation a:hover {
+            border-bottom: 1px solid #000;
+        }
+        main {
+            margin-bottom: 60px;
+            padding: 25px;
+            background: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        #loading {
+            text-align: center;
+            padding: 2em;
+            color: #666;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            font-style: italic;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Site</h1>
-        <p>A place to share my thoughts and projects</p>
+        <h1>Wanderer's Vice</h1>
+        <div class="subtitle">A collection of essays and short stories</div>
     </header>
 
-    <div class="content">
-        <h2>About Me</h2>
-        <p>Hello! This is my personal website hosted on GitHub Pages. Here you'll find information about my projects, interests, and more.</p>
-        
-        <h2>Projects</h2>
-        <p>I'm working on some exciting projects. Stay tuned for updates!</p>
+    <nav class="navigation">
+        <a href="#stories">stories</a> •
+        <a href="#essays">essays</a> •
+        <a href="https://github.com/wanderersvice">elsewhere</a>
+    </nav>
 
-        <div class="social-links">
-            <a href="https://github.com/wanderersvice" target="_blank">GitHub</a>
-            <!-- Add more social links as needed -->
+    <main>
+        <div id="loading" style="text-align: center; padding: 2em; color: #666;">
+            Loading content...
         </div>
-    </div>
+    </main>
+
+    <footer>
+        <p>"The universe is made of stories, not of atoms." — Muriel Rukeyser</p>
+        <p> 2025 • Crafted with ink and imagination</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
