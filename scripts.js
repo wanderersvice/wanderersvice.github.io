@@ -15,42 +15,28 @@ async function initializeMarked() {
     });
 }
 
-async function discoverContent() {
-    const types = ['stories', 'essays'];
-    const content = {};
+const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/wanderersvice/wanderersvice.github.io/github-pages';
 
-    for (const type of types) {
-        try {
-            // Fetch directory listing
-            const response = await fetch(`/content/${type}/`);
-            const html = await response.text();
-            
-            // Parse HTML to find markdown files
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-            
-            // Find all links that end with .md
-            content[type] = Array.from(doc.querySelectorAll('a'))
-                .map(a => a.getAttribute('href'))
-                .filter(href => href && href.endsWith('.md'))
-                .map(href => `${type}/${href}`);
-            
-        } catch (error) {
-            console.error(`Error discovering ${type}:`, error);
-            content[type] = [];
+async function loadManifest() {
+    try {
+        const response = await fetch(`${GITHUB_RAW_URL}/content/manifest.json`);
+        if (!response.ok) {
+            throw new Error('Failed to load content manifest');
         }
+        return await response.json();
+    } catch (error) {
+        console.error('Error loading manifest:', error);
+        return { stories: [], essays: [] };
     }
-    
-    return content;
 }
 
 async function fetchContent(markedInstance) {
     try {
-        const contentIndex = await discoverContent();
-        console.log('Discovered content:', contentIndex);
+        const manifest = await loadManifest();
+        console.log('Content manifest:', manifest);
         
-        const stories = await fetchMarkdownFiles(contentIndex.stories, 'stories', markedInstance);
-        const essays = await fetchMarkdownFiles(contentIndex.essays, 'essays', markedInstance);
+        const stories = await fetchMarkdownFiles(manifest.stories, 'stories', markedInstance);
+        const essays = await fetchMarkdownFiles(manifest.essays, 'essays', markedInstance);
         
         return { stories, essays };
     } catch (error) {
@@ -65,7 +51,7 @@ async function fetchMarkdownFiles(files, type, markedInstance) {
         const contents = await Promise.all(
             files.map(async file => {
                 try {
-                    const response = await fetch(`/content/${file}`);
+                    const response = await fetch(`${GITHUB_RAW_URL}/content/${type}/${file}`);
                     if (!response.ok) {
                         console.error(`Error fetching ${file}:`, response.statusText);
                         return null;
@@ -166,7 +152,7 @@ function showFullContent(title, content) {
     main.innerHTML = `
         <article class="story full">
             <div class="story-meta">
-                <a href="#" onclick="location.href='/'; return false;">← Back</a>
+                <a href="#" onclick="window.location.hash = ''; return false;">← Back</a>
             </div>
             <h2 class="story-title">${title}</h2>
             <div class="story-content">
@@ -205,7 +191,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (essays.length > 0) {
                 const essaysSection = document.createElement('section');
                 essaysSection.id = 'essays';
-                essaysSection.innerHTML = '<h2>Essays</h2>';
+                essaysSection.innerHTML = '<h2 style="font-weight: normal; font-style: italic;">Essays</h2>';
                 essays.forEach(essay => {
                     essaysSection.appendChild(createContentElement(essay));
                 });
