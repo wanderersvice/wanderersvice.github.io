@@ -1,6 +1,8 @@
 title: Wanderer's Vice
 description: A collection of essays and short stories
 permalink: /:categories/:title/
+
+# Collections
 collections:
   stories:
     output: true
@@ -8,3 +10,35 @@ collections:
   essays:
     output: true
     permalink: /essays/:title/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - .github/
+  - .gitignore
+  - README.md
+
+# Default front matter
+defaults:
+  -
+    scope:
+      path: ""
+      type: "stories"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "essays"
+    values:
+      layout: "post"
