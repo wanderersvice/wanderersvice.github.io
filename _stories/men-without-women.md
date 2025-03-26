@@ -1,8 +1,8 @@
 ---
+layout: post
 title: "Men Without Women"
 date: "2025-03-24"
 type: "story"
-tags: ["fiction", "magical-realism"]
 excerpt: "The house had grown silent. It was not an empty silence, but a thick, lingering one, something that settled into the corners of the rooms and made itself comfortable. The father and son lived in it now, the two of them moving through the days like figures in a clockwork routine, predictable and dull."
 ---
 

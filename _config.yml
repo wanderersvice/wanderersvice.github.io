@@ -1,0 +1,10 @@
+title: Wanderer's Vice
+description: A collection of essays and short stories
+permalink: /:categories/:title/
+collections:
+  stories:
+    output: true
+    permalink: /stories/:title/
+  essays:
+    output: true
+    permalink: /essays/:title/

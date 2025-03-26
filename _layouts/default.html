@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <div class="subtitle">{{ site.description }}</div>
+    </header>
+
+    <nav class="navigation">
+        <a href="{{ '/stories' | relative_url }}">stories</a> •
+        <a href="{{ '/essays' | relative_url }}">essays</a> •
+        <a href="https://github.com/wanderersvice">elsewhere</a>
+    </nav>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>"The universe is made of stories, not of atoms." — Muriel Rukeyser</p>
+        <p>© 2025 • Crafted with ink and imagination</p>
+    </footer>
+</body>
+</html>

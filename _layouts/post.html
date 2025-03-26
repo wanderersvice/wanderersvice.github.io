@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="story full">
+    <div class="story-meta">
+        <a href="{{ page.collection | prepend: '/' | relative_url }}">← Back to {{ page.collection }}</a>
+    </div>
+    <h2 class="story-title">{{ page.title }}</h2>
+    <div class="story-content">
+        {{ content }}
+    </div>
+</article>

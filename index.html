@@ -71,6 +71,29 @@
             border-top: 1px solid #ccc;
             padding-top: 20px;
         }
+        .story {
+            margin-bottom: 40px;
+        }
+        .story-date {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .story-title {
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+        .story-excerpt {
+            font-size: 1.1em;
+        }
+        .read-more {
+            font-size: 1em;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px dotted #666;
+        }
+        .read-more:hover {
+            border-bottom: 1px solid #000;
+        }
     </style>
 </head>
 <body>
@@ -86,16 +109,41 @@
     </nav>
 
     <main>
-        <div id="loading" style="text-align: center; padding: 2em; color: #666;">
-            Loading content...
-        </div>
+        {% assign stories = site.stories | sort: 'date' | reverse %}
+        {% assign essays = site.essays | sort: 'date' | reverse %}
+
+        {% if stories.size > 0 %}
+        <section id="stories">
+            <h2 style="font-weight: normal; font-style: italic;">Stories</h2>
+            {% for story in stories %}
+            <article class="story">
+                <div class="story-date">{{ story.date | date: "%B, %Y" }}</div>
+                <h2 class="story-title">{{ story.title }}</h2>
+                <p class="story-excerpt">{{ story.excerpt }}</p>
+                <p><a href="{{ story.url | relative_url }}" class="read-more">Continue reading...</a></p>
+            </article>
+            {% endfor %}
+        </section>
+        {% endif %}
+
+        {% if essays.size > 0 %}
+        <section id="essays">
+            <h2 style="font-weight: normal; font-style: italic;">Essays</h2>
+            {% for essay in essays %}
+            <article class="story">
+                <div class="story-date">{{ essay.date | date: "%B, %Y" }}</div>
+                <h2 class="story-title">{{ essay.title }}</h2>
+                <p class="story-excerpt">{{ essay.excerpt }}</p>
+                <p><a href="{{ essay.url | relative_url }}" class="read-more">Continue reading...</a></p>
+            </article>
+            {% endfor %}
+        </section>
+        {% endif %}
     </main>
 
     <footer>
         <p>"The universe is made of stories, not of atoms." — Muriel Rukeyser</p>
         <p> 2025 • Crafted with ink and imagination</p>
     </footer>
-
-    <script src="scripts.js"></script>
 </body>
 </html>
