@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Moab Is My Washpot"
+title: "Moab is my Washpot"
 date: "2025-04-27"
 type: "essay"
 excerpt: "Stephen Fry borrowed the phrase Moab Is My Washpot from the Psalms to title his first autobiography — a book that traces his early years with honesty, wit, and more than a pinch of self-awareness. I borrow it here for much the same reason. If Fry’s 'Moab' was a boys' boarding school in England, mine was a girls' Catholic convent school in India — a place that raised me for 14 years until I emerged equal parts inhibited and empowered."
