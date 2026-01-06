@@ -12,7 +12,7 @@ collections:
     permalink: /essays/:title/
   bookclub:
     output: true
-    permalink: /book-club/:title/
+    permalink: /bookclub/:title/
 
 # Build settings
 markdown: kramdown
