@@ -5,7 +5,7 @@ title: Home
 
 {% assign stories = site.stories | sort: 'date' | reverse %}
 {% assign essays = site.essays | sort: 'date' | reverse %}
-{% assign essays = site.bookclub | sort: 'date' | reverse %}
+{% assign bookclub = site.bookclub | sort: 'date' | reverse %}
 
 {% if essays.size > 0 %}
 ## Essays

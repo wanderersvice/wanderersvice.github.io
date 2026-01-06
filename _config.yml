@@ -45,7 +45,8 @@ defaults:
       type: "essays"
     values:
       layout: "post"
-  - scope:
+  -
+    scope:
       path: ""
       type: "bookclub"
     values:
