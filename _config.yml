@@ -10,6 +10,9 @@ collections:
   essays:
     output: true
     permalink: /essays/:title/
+  bookclub:
+    output: true
+    permalink: /book-club/:title/
 
 # Build settings
 markdown: kramdown
@@ -40,5 +43,10 @@ defaults:
     scope:
       path: ""
       type: "essays"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "bookclub"
     values:
       layout: "post"
