@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fahrenheit 451"
+title: "The Gambler"
 date: "2026-01-02"
 type: "bookclub"
 excerpt: "The Gambler is a short novel by the revered Russian writer Fyodor Dostoevsky, first published in 1866. It was written in a remarkably short period, which is reportedly just 26 days, to meet a desperate deadline from publishers and to pay off Dostoevsky’s own gambling debts."
