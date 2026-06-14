@@ -34,6 +34,34 @@ The boy had looked at him, eyes unfocused. “She’s not here.”
 The boy had returned to his toy car, lining it up perfectly against the others. The conversation ended there.
 The idea of having a second partner had come and gone quickly, like a bird landing on a branch before taking flight again. There was no space for someone else. His life was already full, in its own difficult, uneven way.
 
-They were men without women now. They did what they had to do. They got up, they worked, they ate, they slept. They carried on. There was no tragedy in it, not exactly. Just the quiet, unremarkable weight of life as it was.
+Surendra had always harbored a deep passion for traveling. He was known for his frequent journeys, often departing on sudden, unplanned adventures to unconventional places whenever the mood struck him. He planned one such trip on a quiet Thursday morning, after noticing how long it had been since his son had stepped out of the house for anything other than work or school. He chose a small town in the hilly area of Uttarakhand, a place they had once gone to with his friends when he was young. This time, it would just be the two of them, a long drive and a few days in nature, away from the closed-in walls of home.
+
+They packed simply. Surendra took charge, gathering cooking supplies, extra clothes, and the medication his son needed. His son watched with wide-eyed excitement, buzzing with curiosity in the way only he could. He asked the same questions again and again. What time they would leave, what they would eat, what he should wear, whether there would be monkeys on the mountain. His words came out in a rush, often looping back to the beginning before Surendra could even finish answering.
+
+It was endearing, the way his son’s enthusiasm spilled over. Childlike, relentless, and oddly precise. There was something mischievous in how he repeated things with a twinkle in his eye, as if testing how far he could go before his father gave up and groaned. And most times, Surendra did. The boy’s chatter, though it frayed his patience, filled a space that might otherwise have stayed painfully quiet. Eventually, to save his sanity, Surendra would assign him a small job like folding a towel, zipping up the bags or to play one of his favorite old Hindi songs to gently steer his attention elsewhere. Still, even in the chaos, there was comfort. The boy’s presence, demanding and pure, gave Surendra something steady to hold on to.
+
+The drive was long and winding, cutting through dusty towns and forests that grew thicker with altitude. The son pressed his face against the window, watching trees blur into green smears. Surendra drove mostly in silence, with an old playlist humming from the speakers. A playlist which was once shared between him and his late wife.
+
+In the hills, the air felt different. Sharper. Quieter, but not in the same way as their home. Here, the silence was alive. They stayed in a small cottage overlooking a slope of pine trees. In the mornings, they walked. Sometimes Surendra held his son’s hand when the path got steep. Other times, the boy moved ahead without looking back, his body light and sure on the rocky ground.
+
+They cooked over a portable stove. Simple meals like rice and dal. One afternoon, while resting near a clearing, Surendra saw a family across the slope. A couple with two children, both around the age his daughters had been. The woman was passing out slices of fruit, the man snapping photos. The children giggled, pushing each other. Surendra had lived those scenes once. And now, he simply watched them. 
+
+His son sat beside him, sorting small stones by color. “Do you like it here?” Surendra asked. The boy didn’t answer, just gave a short nod.
+
+Across the valley, the family began packing their things. The children ran ahead while their parents called after them. Their voices drifted through the afternoon air and slowly disappeared into the trees. Surendra watched them go. For a moment, he thought of his wife. He thought of the years when the car was full, when every trip involved arguments over snacks, forgotten water bottles, and someone always needing to stop for a bathroom break. He missed those days. He always would.
+
+Beside him, his son suddenly held out a stone. “This one is for you,” he said. Surendra took it. It was an ordinary stone, no different from the dozens scattered around them. Yet the boy looked pleased with his choice.
+
+“Thank you,” Surendra said. The boy nodded and returned to his collection. Surendra turned the stone over in his hand. He felt the rough edges against his palm. His son did not know how to speak or express. He did not know how to comfort people or share memories. He could not tell his father that everything would be alright. But this was his language. A stone picked carefully from the earth and offered without hesitation. Surendra slipped it into his pocket.
+
+The sun was beginning to sink behind the mountains. Soon they would have to walk back to the cottage and start preparing dinner. His son would probably ask the same questions he had already asked three times that day. He would probably refuse to eat his vegetables. Surendra would get irritated, then feel guilty about being irritated. The routine would continue.
+
+For the first time in a long while, that thought did not seem burdensome. The boy stood up and brushed the dirt from his trousers.
+
+"Come," he said, reaching out a hand to help him up. Surendra gave a small smile.
+
+"Yes," he replied, pushing himself up. "Let’s go."
+
+Together they started down the trail. Hand in hand, two figures moving through the fading light. Not speaking. Not needing to. 
 
 
